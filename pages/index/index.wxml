@@ -76,7 +76,7 @@
       </view>
     </view>
   </view>
-  <image wx:if="{{adInfo}}" class="ad-img" mode="widthFix" src="{{adInfo.picUrl}}" bindtap="adClick" data-url="{{adInfo.linkUrl}}"></image>
+  <!-- <image wx:if="{{adInfo}}" class="ad-img" mode="widthFix" src="{{adInfo.picUrl}}" bindtap="adClick" data-url="{{adInfo.linkUrl}}"></image> -->
   <view wx-if="{{kanjiaList.length > 0 && activeCategoryId == 0}}" class="weui-panel weui-panel_access" style='margin-top:0px;'>
     <view class="weui-panel__hd">疯狂砍价</view>
     <view class="weui-panel__bd">
@@ -103,7 +103,7 @@
       </block>
     </view>
   </view>
-  <block wx:if="{{pingtuanList.length > 0 && activeCategoryId == 0}}">
+  <!-- <block wx:if="{{pingtuanList.length > 0 && activeCategoryId == 0}}">
     <view class='space'></view>
     <view class="weui-loadmore weui-loadmore_line">
       <view class="weui-loadmore__tips weui-loadmore__tips_in-line">全民拼团</view>
@@ -125,7 +125,7 @@
         </view>
       </view>
     </view>
-  </block>
+  </block> -->
 
   <view class='space'></view>
   <view class="weui-loadmore weui-loadmore_line">
